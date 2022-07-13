@@ -1,0 +1,19 @@
+package com.devsuperior.dsmeta.controllers;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.devsuperior.dsmeta.entities.Sale;
+
+@RestController
+@RequestMapping(value="/sales")
+public class SaleControler {
+	
+	private 
+
+	public List<Sale> findSales() {
+		
+	}
+}
